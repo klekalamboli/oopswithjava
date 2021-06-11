@@ -1,0 +1,23 @@
+Inheritance
+Defination:
+Inheritance in java is a mechanism in which a class acquires the properties of another class. 
+The idea behind inheritance in java is that you can create new classes that are built upon existing classes.
+When you inherit from an existing class, you can reuse methods and fields of parent class, and you
+can add new methods and fields also.
+Inheritance represents the IS-A relationship, also known as parent-child relationship. 
+Here a class which is extended is known as Base class or Parent class or Super class.
+The class which is inheriting the properies is known as Derived class or Child class or Sub class.
+
+------------------------------------------------------------------------------------------------------
+use inheritance in Java :
+
+For Code Reusability
+For changing the existing behaviour  //methodoverriding
+
+------------------------------------------------------------------------------------------------------
+Types of Inheritance in Java :
+
+1. Single
+2. Multi-Level
+3. Hierarchical
+------------------------------------------------------------------------------------------------------

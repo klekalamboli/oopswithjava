@@ -1,0 +1,50 @@
+Interface :
+An interface in Java is a blueprint of a class. 
+It has static constants and abstract methods only. 
+The interface in java is a mechanism to achieve fully abstraction. 
+There can be only abstract methods in the java interface not method body. 
+It is used to achieve fully abstraction and indirectly multiple inheritance in Java.
+Java Interface also represents IS-A relationship.
+
+Use of interfaces:
+There are mainly two reasons to use interface. 
+They are given below. 
+• It is used to achieve fully abstraction. 
+• By interface, we can support the functionality of multiple inheritance.
+
+Properties of Interface:
+1. A class implements the interface and overrides the method of interface.
+2. A class can extend a class and also can implement interface.
+3. An interface can not implement an interface.
+4. A interface can extends two or more interfaces. A interface cannot extend a class.
+5. A class cannot extend multiple class.
+6. A class implements interface but one interface can extend another interface .
+7. A class must either implement all methods of its interface to be implement or it should be declared abstract.
+8. Interface variables are by default public static final.
+9. Interface methods are by default public and abstract. 
+10.We can not use any other modifier. While overridding methods of interface in class, methods should be defined as public.
+
+Marker Interfaces:
+There are some interfaces in java which has no body. Means no any method signatures or variables.
+Such interfaces are empty and known as marker interfaces.
+
+Functional Interfaces:
+The interfaces with only one method signature are known as functional interfaces.
+
+---------------------------------------------------------------------------------------------------
+Abstract Class
+
+Properties of abstract class:
+1. Abstract class may contain concrete methods i.e. methods with body.
+2. Abstract class may be blank.
+3. The abstract methods in abstract class must be explicitly defined as an abstract. 
+4. The abstract methods may be protected, default and public.
+5. We can declared instance variables, static variables, final variables, and constructors in abstract class.
+6. We cant create instance of abstract class directly. It will get created throgh subclass. But we can
+	create the reference of abstract class
+7. All abstract methods of abstract class must be overriden in its subclass either, or the subclass
+must be declared as an abstract if it does not want to implement all abstract methods of its super
+class.
+8. We can not declare abstract class and abstract method as final.
+9. A class can not extend more than one abstract class. Because java does not support multiple
+inheritance through classes.
